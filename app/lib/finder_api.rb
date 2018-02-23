@@ -12,13 +12,17 @@ class FinderApi
       taxon = fetch_taxon
       filter_params['taxons'] = taxon['content_id']
     end
+
+    if document_type = filter_params.delete('content_purpose_document_supertype')
+      filter_params['format'] = [document_type]
+    end
+
     search_response = fetch_search_response(content_item)
-    res = augment_content_item_with_results(
+    augment_content_item_with_results(
       content_item,
       search_response,
       taxon
     )
-    res
   end
 
 private
@@ -48,7 +52,6 @@ private
       finder_content_item: content_item,
       params: filter_params,
     ).call
-
     Services.rummager.search(query).to_hash
   end
 

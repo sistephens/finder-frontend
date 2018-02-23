@@ -9,7 +9,7 @@ class FilterQueryBuilder
   def call
     filters.select(&:active?).reduce({}) { |query, filter|
       query.merge(filter.key => filter.value)
-    }
+    }.merge('format' => @user_params['format'])
   end
 
 private

@@ -58,73 +58,41 @@
             "name": "Publication type",
             "type": "hidden",
             "preposition": "of type",
-            "display_as_result_metadata": true,
+            "display_as_result_metadata": false,
             "filterable": true,
             "allowed_values": [
               {
                 "label": "News",
-                "value": "news"
+                "value": "news_article"
               },
-              {
-                "label": "Resources",
-                "value": "resources"
-              },
-              {
-                "label": "Speeches and statements",
-                "value": "speeches-and-statements"
-              },
-              {
-                "label": "Guidance",
-                "value": "guidance"
-              },
-              {
-                "label": "Updates and alerts",
-                "value": "updates-and-alerts"
-              },
-              {
-                "label": "Contacts",
-                "value": "contacts"
-              },
-              {
-                "label": "Transactions",
-                "value": "transactions"
-              },
-              {
-                "label": "Reports",
-                "value": "reports"
-              },
-              {
-                "label": "Decisions",
-                "value": "decisions"
-              },
-              {
-                "label": "Engagement activities",
-                "value": "engagement-activities"
-              },
-              {
-                "label": "Data",
-                "value": "data"
-              },
-              {
-                "label": "Organising entities",
-                "value": "organising-entities"
-              },
-              {
-                "label": "Navigation",
-                "value": "navigation"
-              },
-              {
-                "label": "Grants and funding",
-                "value": "grants-and-funding"
-              },
-              {
-                "label": "Corporate information",
-                "value": "corporate-info"
-              },
-              {
-                "label": "Service Manual",
-                "value": "service-manual"
-              }
+							{
+                "label": "Publication",
+                "value": "publication"
+							},
+							{
+                "label": "Consultation",
+                "value": "consultation"
+							},
+							{
+                "label": "Speech",
+                "value": "speech"
+							},
+							{
+                "label": "Statistical data set",
+                "value": "statistical_data_set"
+							},
+							{
+                "label": "Organisation",
+                "value": "organisation"
+							},
+							{
+                "label": "Corporate information page",
+                "value": "corporate_information_page"
+							},
+							{
+                "label": "Case study",
+                "value": "case_study"
+							}
             ]
           }
       ],
