@@ -62,37 +62,422 @@
             "filterable": true,
             "allowed_values": [
               {
-                "label": "News",
-                "value": "news_article"
+                "label": "Aaib report",
+                "value": "aaib_report"
               },
-							{
-                "label": "Publication",
-                "value": "publication"
-							},
-							{
-                "label": "Consultation",
-                "value": "consultation"
-							},
-							{
-                "label": "Speech",
-                "value": "speech"
-							},
-							{
-                "label": "Statistical data set",
-                "value": "statistical_data_set"
-							},
-							{
-                "label": "Organisation",
-                "value": "organisation"
-							},
-							{
-                "label": "Corporate information page",
-                "value": "corporate_information_page"
-							},
-							{
+              {
+                "label": "About",
+                "value": "about"
+              },
+              {
+                "label": "Answer",
+                "value": "answer"
+              },
+              {
+                "label": "Asylum support decision",
+                "value": "asylum_support_decision"
+              },
+              {
+                "label": "Authored article",
+                "value": "authored_article"
+              },
+              {
+                "label": "Business finance support scheme",
+                "value": "business_finance_support_scheme"
+              },
+
+              {
                 "label": "Case study",
                 "value": "case_study"
-							}
+              },
+              {
+                "label": "Closed consultation",
+                "value": "closed_consultation"
+              },
+              {
+                "label": "Cma case",
+                "value": "cma_case"
+              },
+              {
+                "label": "Complaints procedure",
+                "value": "complaints_procedure"
+              },
+              {
+                "label": "Completed transaction",
+                "value": "completed_transaction"
+              },
+              {
+                "label": "Consultation outcome",
+                "value": "consultation_outcome"
+              },
+              {
+                "label": "Contact",
+                "value": "contact"
+              },
+              {
+                "label": "Corporate report",
+                "value": "corporate_report"
+              },
+              {
+                "label": "Correspondence",
+                "value": "correspondence"
+              },
+              {
+                "label": "Countryside stewardship grant",
+                "value": "countryside_stewardship_grant"
+              },
+              {
+                "label": "Decision",
+                "value": "decision"
+              },
+              {
+                "label": "Detailed guidance",
+                "value": "detailed_guidance"
+              },
+              {
+                "label": "Detailed guide",
+                "value": "detailed_guide"
+              },
+              {
+                "label": "Dfid research output",
+                "value": "dfid_research_output"
+              },
+              {
+                "label": "Document collection",
+                "value": "document_collection"
+              },
+              {
+                "label": "Drug safety update",
+                "value": "drug_safety_update"
+              },
+              {
+                "label": "Email alert signup",
+                "value": "email_alert_signup"
+              },
+              {
+                "label": "Employment appeal tribunal decision",
+                "value": "employment_appeal_tribunal_decision"
+              },
+              {
+                "label": "Employment tribunal decision",
+                "value": "employment_tribunal_decision"
+              },
+              {
+                "label": "Equality and diversity",
+                "value": "equality_and_diversity"
+              },
+              {
+                "label": "Esi fund",
+                "value": "esi_fund"
+              },
+              {
+                "label": "Fatality notice",
+                "value": "fatality_notice"
+              },
+              {
+                "label": "Field of operation",
+                "value": "field_of_operation"
+              },
+              {
+                "label": "Financial releases geoblocker",
+                "value": "financial_releases_geoblocker"
+              },
+              {
+                "label": "Financial releases success",
+                "value": "financial_releases_success"
+              },
+              {
+                "label": "Finder email signup",
+                "value": "finder_email_signup"
+              },
+              {
+                "label": "Foi release",
+                "value": "foi_release"
+              },
+              {
+                "label": "Form",
+                "value": "form"
+              },
+              {
+                "label": "Government response",
+                "value": "government_response"
+              },
+              {
+                "label": "Guidance",
+                "value": "guidance"
+              },
+              {
+                "label": "Guide",
+                "value": "guide"
+              },
+              {
+                "label": "Help page",
+                "value": "help_page"
+              },
+              {
+                "label": "Hmrc manual",
+                "value": "hmrc_manual"
+              },
+              {
+                "label": "Hmrc manual section",
+                "value": "hmrc_manual_section"
+              },
+              {
+                "label": "Html publication",
+                "value": "html_publication"
+              },
+              {
+                "label": "Impact assessment",
+                "value": "impact_assessment"
+              },
+              {
+                "label": "Independent report",
+                "value": "independent_report"
+              },
+              {
+                "label": "International development fund",
+                "value": "international_development_fund"
+              },
+              {
+                "label": "International treaty",
+                "value": "international_treaty"
+              },
+              {
+                "label": "Licence",
+                "value": "licence"
+              },
+              {
+                "label": "License finder",
+                "value": "license_finder"
+              },
+              {
+                "label": "Local transaction",
+                "value": "local_transaction"
+              },
+              {
+                "label": "Maib report",
+                "value": "maib_report"
+              },
+              {
+                "label": "Manual",
+                "value": "manual"
+              },
+              {
+                "label": "Manual section",
+                "value": "manual_section"
+              },
+              {
+                "label": "Media enquiries",
+                "value": "media_enquiries"
+              },
+              {
+                "label": "Medical safety alert",
+                "value": "medical_safety_alert"
+              },
+              {
+                "label": "Membership",
+                "value": "membership"
+              },
+              {
+                "label": "Ministerial role",
+                "value": "ministerial_role"
+              },
+              {
+                "label": "National",
+                "value": "national"
+              },
+              {
+                "label": "National statistics",
+                "value": "national_statistics"
+              },
+              {
+                "label": "National statistics announcement",
+                "value": "national_statistics_announcement"
+              },
+              {
+                "label": "News article",
+                "value": "news_article"
+              },
+              {
+                "label": "News story",
+                "value": "news_story"
+              },
+              {
+                "label": "Notice",
+                "value": "notice"
+              },
+              {
+                "label": "Official",
+                "value": "official"
+              },
+              {
+                "label": "Official statistics",
+                "value": "official_statistics"
+              },
+              {
+                "label": "Official statistics announcement",
+                "value": "official_statistics_announcement"
+              },
+              {
+                "label": "Open consultation",
+                "value": "open_consultation"
+              },
+              {
+                "label": "Oral statement",
+                "value": "oral_statement"
+              },
+              {
+                "label": "Organisation",
+                "value": "organisation"
+              },
+              {
+                "label": "Personal information charter",
+                "value": "personal_information_charter"
+              },
+              {
+                "label": "Petitions and campaigns",
+                "value": "petitions_and_campaigns"
+              },
+              {
+                "label": "Policy",
+                "value": "policy"
+              },
+              {
+                "label": "Policy area",
+                "value": "policy_area"
+              },
+              {
+                "label": "Policy paper",
+                "value": "policy_paper"
+              },
+              {
+                "label": "Press release",
+                "value": "press_release"
+              },
+              {
+                "label": "Publication scheme",
+                "value": "publication_scheme"
+              },
+              {
+                "label": "Raib report",
+                "value": "raib_report"
+              },
+              {
+                "label": "Recruitment",
+                "value": "recruitment"
+              },
+              {
+                "label": "Regulation",
+                "value": "regulation"
+              },
+              {
+                "label": "Research",
+                "value": "research"
+              },
+              {
+                "label": "Service standard report",
+                "value": "service_standard_report"
+              },
+              {
+                "label": "Services and information",
+                "value": "services_and_information"
+              },
+              {
+                "label": "Speech",
+                "value": "speech"
+              },
+              {
+                "label": "Statistical data set",
+                "value": "statistical_data_set"
+              },
+              {
+                "label": "Statistics",
+                "value": "statistics"
+              },
+              {
+                "label": "Statistics announcement",
+                "value": "statistics_announcement"
+              },
+              {
+                "label": "Statutory guidance",
+                "value": "statutory_guidance"
+              },
+              {
+                "label": "Take part",
+                "value": "take_part"
+              },
+              {
+                "label": "Task list",
+                "value": "task_list"
+              },
+              {
+                "label": "Tax tribunal decision",
+                "value": "tax_tribunal_decision"
+              },
+              {
+                "label": "Taxon",
+                "value": "taxon"
+              },
+              {
+                "label": "Terms of reference",
+                "value": "terms_of_reference"
+              },
+              {
+                "label": "Topic",
+                "value": "topic"
+              },
+              {
+                "label": "Topical event",
+                "value": "topical_event"
+              },
+              {
+                "label": "Topical event about page",
+                "value": "topical_event_about_page"
+              },
+              {
+                "label": "Transaction",
+                "value": "transaction"
+              },
+              {
+                "label": "Transparency",
+                "value": "transparency"
+              },
+              {
+                "label": "Travel advice",
+                "value": "travel_advice"
+              },
+              {
+                "label": "Utaac decision",
+                "value": "utaac_decision"
+              },
+              {
+                "label": "Welsh language scheme",
+                "value": "welsh_language_scheme"
+              },
+              {
+                "label": "Working group",
+                "value": "working_group"
+              },
+              {
+                "label": "World location",
+                "value": "world_location"
+              },
+              {
+                "label": "World location news article",
+                "value": "world_location_news_article"
+              },
+              {
+                "label": "World news story",
+                "value": "world_news_story"
+              },
+              {
+                "label": "Worldwide organisation",
+                "value": "worldwide_organisation"
+              },
+              {
+                "label": "Written statement",
+                "value": "written_statement"
+              }
             ]
           }
       ],
