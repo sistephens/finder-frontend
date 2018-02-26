@@ -21,7 +21,8 @@ class SearchResultPresenter
   end
 
   def link
-    search_result.path
+    content_app_base_url = ENV['CONTENT_APP_BASE_URL'] || ""
+    "#{content_app_base_url}#{search_result.path}"
   end
 
   def metadata
