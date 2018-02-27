@@ -355,6 +355,10 @@
                 "value": "press_release"
               },
               {
+                "label": "Publication",
+                "value": "publication"
+              },
+              {
                 "label": "Publication scheme",
                 "value": "publication_scheme"
               },
