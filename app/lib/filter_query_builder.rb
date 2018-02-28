@@ -24,6 +24,7 @@ private
     filter_class = {
       'date' => DateFilter,
       'hidden' => HiddenFilter,
+      'taxonomy' => HiddenFilter,
       'text' => TextFilter,
       'topical' => TopicalFilter,
     }.fetch(facet['type'])

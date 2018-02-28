@@ -46,7 +46,7 @@
           {
             "key": "taxons",
             "name": "Taxonomy",
-            "type": "hidden",
+            "type": "taxonomy",
             "preposition": "about",
             "display_as_result_metadata": true,
             "filterable": true,
