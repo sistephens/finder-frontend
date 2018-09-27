@@ -7,8 +7,6 @@ class FindersController < ApplicationController
   ATOM_FEED_MAX_AGE = 300
 
   def show
-    return redirect_to '/government/brexit' if finder_slug == 'government/policies/brexit'
-
     @results = result_set_presenter_class.new(finder, filter_params, view_context)
 
     respond_to do |format|
